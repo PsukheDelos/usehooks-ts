@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
+    "preinstall": "npx -y only-allow pnpm",
     "dev": "turbo run dev",
     "build": "turbo run build",
     "test": "turbo run test",
